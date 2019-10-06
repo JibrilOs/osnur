@@ -185,8 +185,8 @@
 		width: 15%;
 		height: 600px;
 		position: absolute;
-		top: 19%;
-		left: 30%;
+		top: 24%;
+		left: 28%;
 		border: none;
 		transform: rotate(55deg);
 		border-radius: 36px;
@@ -197,13 +197,157 @@
 
 		position: absolute;
 		top: 25%;
-		right: 0%;
-		width: 32%;
-		background: #000;
-		text-align: center
+		right: -3%;
+		width: 33%;
+
+
+	}
+
+	.blue {
+		background: #0652DD;
+		width: 45%;
+		height: 100vh;
+
+	}
+
+	.white {
+
+		background: rgba(178, 178, 178, 0.06);
+		width: 55%;
+		height: 100vh;
+	}
+
+	.titl {
+
+		margin-top: 10px;
+		font-weight: bold;
+	}
+
+	.intro {
+
+		font-size: 35px;
+		margin-top: 4%;
+		width: 70%
+	}
+
+	.intro:after {
+		content: "";
+		display: block;
+		border-bottom: 3px solid rgba(255, 0, 0, 0.49);
+		height: 5px;
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 20px;
+
+	}
+
+	.btn {
+		background: #0652DD;
+		width: 59%;
+		height: 57px;
+		color: white;
+		text-transform: uppercase;
+		border: 1px solid #0652DD;
+		border-radius: 9px;
+		margin-top: 20%;
+		font-weight: 500;
+		font-size: 20px
+	}
+
+	.btn:hover,
+	.btn:active {
+
+		background: #064ccc;
+		cursor: pointer;
+		border: 1px solid #065eff;
+
+
+	}
+
+	.contact {
+		position: absolute;
+		top: 80%;
+		color: white;
+		text-transform: capitalize
+	}
+
+	h4,
+	p {
+		font-size: 35px;
+		margin-bottom: 2px;
+		font-weight: 500;
+		margin-left: 30px;
+
 	}
 
 
+
+	.contacti {
+		margin-left: 35px;
+
+	}
+
+	.icon {
+		display: flex;
+		justify-content: space-around;
+		background: #0652DD;
+		font-size: 50px;
+
+	}
+
+	.fac,
+	.insta,
+	.twi {
+		margin-left: -30px;
+		background: #0652DD;
+		color: white;
+
+
+	}
+
+	.fac:hover,
+	.insta:hover,
+	.twi:hover,
+	.fa {
+
+		cursor: pointer;
+		background: #0652DD;
+		color: white;
+
+	}
+
+	.phone {
+		color: white;
+	}
+
+	h3 {
+		color: white;
+		display: flex;
+		justify-content: center;
+		align-items: baseline;
+		line-height: 70px;
+
+
+	}
+
+	h1 {
+
+		margin-left: 30px;
+		font-size: 30px
+	}
+
+	span h1 {
+		margin-left: 55px;
+	}
+
+
+	.fot {
+
+		width: 100%;
+		background: #353b48;
+		height: 7vh;
+		margin-left: 19px
+	}
 
 }
 
@@ -214,8 +358,8 @@
 		width: 15%;
 		height: 600px;
 		position: absolute;
-		top: 19%;
-		left: 30%;
+		top: 24%;
+		left: 28%;
 		border: none;
 		transform: rotate(55deg);
 		border-radius: 36px;
@@ -226,12 +370,157 @@
 
 		position: absolute;
 		top: 25%;
-		right: 0%;
-		width: 32%;
-		background: #000;
-		text-align: center
+		right: -3%;
+		width: 33%;
+
+
 	}
 
+	.blue {
+		background: #0652DD;
+		width: 45%;
+		height: 100vh;
+
+	}
+
+	.white {
+
+		background: rgba(178, 178, 178, 0.06);
+		width: 55%;
+		height: 100vh;
+	}
+
+	.titl {
+
+		margin-top: 10px;
+		font-weight: bold;
+	}
+
+	.intro {
+
+		font-size: 35px;
+		margin-top: 4%;
+		width: 70%
+	}
+
+	.intro:after {
+		content: "";
+		display: block;
+		border-bottom: 3px solid rgba(255, 0, 0, 0.49);
+		height: 5px;
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 20px;
+
+	}
+
+	.btn {
+		background: #0652DD;
+		width: 59%;
+		height: 57px;
+		color: white;
+		text-transform: uppercase;
+		border: 1px solid #0652DD;
+		border-radius: 9px;
+		margin-top: 20%;
+		font-weight: 500;
+		font-size: 20px
+	}
+
+	.btn:hover,
+	.btn:active {
+
+		background: #064ccc;
+		cursor: pointer;
+		border: 1px solid #065eff;
+
+
+	}
+
+	.contact {
+		position: absolute;
+		top: 80%;
+		color: white;
+		text-transform: capitalize
+	}
+
+	h4,
+	p {
+		font-size: 35px;
+		margin-bottom: 2px;
+		font-weight: 500;
+		margin-left: 30px;
+
+	}
+
+
+
+	.contacti {
+		margin-left: 35px;
+
+	}
+
+	.icon {
+		display: flex;
+		justify-content: space-around;
+		background: #0652DD;
+		font-size: 50px;
+
+	}
+
+	.fac,
+	.insta,
+	.twi {
+		margin-left: -30px;
+		background: #0652DD;
+		color: white;
+
+
+	}
+
+	.fac:hover,
+	.insta:hover,
+	.twi:hover,
+	.fa {
+
+		cursor: pointer;
+		background: #0652DD;
+		color: white;
+
+	}
+
+	.phone {
+		color: white;
+	}
+
+	h3 {
+		color: white;
+		display: flex;
+		justify-content: center;
+		align-items: baseline;
+		line-height: 70px;
+
+
+	}
+
+	h1 {
+
+		margin-left: 30px;
+		font-size: 30px
+	}
+
+	span h1 {
+		margin-left: 55px;
+	}
+
+
+	.fot {
+
+		width: 100%;
+		background: #353b48;
+		height: 7vh;
+		margin-left: 19px
+	}
 
 
 }
