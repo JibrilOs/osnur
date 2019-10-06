@@ -53,9 +53,9 @@ body {
 .img {
 
 	width: 30%;
-	height: 700px;
+	height: 600px;
 	position: absolute;
-	top: 10%;
+	top: 14%;
 	left: 20%;
 	border: none;
 	transform: rotate(40deg);
@@ -153,6 +153,26 @@ p {
 insta,
 twi {
 	margin-left: -20px;
+	background: #0652DD;
+	color: white;
+
+}
+
+.fac:hover,
+insta:hover,
+twi:hover,
+fa {
+
+	cursor: pointer;
+	background: #0652DD;
+	color: white;
+
+}
+
+img:hover {
+
+	transition: transform 2.70s;
+	background: black;
 
 }
 
