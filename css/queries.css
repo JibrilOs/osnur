@@ -182,16 +182,27 @@
 @media only screen and (max-width: 480px) {
 	.img {
 
-		width: 30%;
+		width: 15%;
 		height: 600px;
 		position: absolute;
-		top: 14%;
-		left: 20%;
+		top: 19%;
+		left: 30%;
 		border: none;
-		transform: rotate(26deg);
-		border-radius: 20px;
-		box-shadow: 50px 2px 20px white
+		transform: rotate(55deg);
+		border-radius: 36px;
+		box-shadow: 1px 1px 100px white
 	}
+
+	.con {
+
+		position: absolute;
+		top: 25%;
+		right: 0%;
+		width: 32%;
+		background: #000;
+		text-align: center
+	}
+
 
 
 }
